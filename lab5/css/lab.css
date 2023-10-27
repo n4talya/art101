@@ -4,6 +4,19 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px hsl(278, 34%, 29%);
+    background-color: hsla(280, 62%, 87%, 0.8);
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  #content {
+    background-color: aliceblue;
+    width: 1300px;
+    min-height: 500px;
+    padding: 10px;
+    margin: 10px;
+    border:dotted 4px;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+  body {background-color: rgb(203, 219, 234);}

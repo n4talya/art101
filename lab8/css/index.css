@@ -1,0 +1,36 @@
+.minor-section {
+    padding: 16 px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: rgb(216, 243, 195);
+  }
+  p{
+    text-indent: 20px;
+    margin-left: 10px;
+  }
+  #content {
+    background-color: hsl(38, 96%, 71%);
+    width: 1100px;
+    min-height: 700 px;
+    padding: 10px;
+    margin: 10px;
+    border:dotted 2px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {background-color: #b6ddac;}
+
+  h1 {
+    color: #000000;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }

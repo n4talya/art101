@@ -1,0 +1,38 @@
+
+  p{
+    text-indent: 20px;
+    margin-left: 10px;
+  }
+  #content {
+    background:linear-gradient(rgb(76, 115, 232), rgb(154, 79, 240));
+    border: solid 1px rgb(153, 117, 238);
+    width: 1100px;
+    min-height: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    background:linear-gradient(rgb(174, 0, 255), rgb(209, 80, 164));
+    width: 2000px;
+    height: 2000px;
+}
+
+  h1 {
+    color: #000000;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  

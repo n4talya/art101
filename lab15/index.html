@@ -1,0 +1,38 @@
+<hmtl>
+    <head>
+        <title> Lab 15: AJAX</title>
+        <link rel="stylesheet" type="text/css"href="css/index.css">
+        <script src="../lab15/js/lab15.js" DEFER></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="content">
+        
+            <h1>Lab 15: AJAX</h1>
+            <div class="minor-section">
+
+
+            <h2>Challenge</h2>
+            <div id="challenge">
+             <p>We were tasked to experiement with AJAX and implement it into our website. </p>
+            </div>
+           
+            <h2>Problems</h2>
+            <div id="problems">
+              <p> Maya and I both had issues getting our output to show on our website. It would appear
+                in my console log when the button was pressed, but it would not show up on the actual
+             page. So we worked with Vibha and she let us know that the results of this API was in the 
+            form of a string. Meaning that we must include result[0].answer in our javascript if we wanted
+            it to appear on our webpage. </p>
+            </div>
+
+            <h2>Reflection</h2>
+            <div id="reflection">
+             <p> I think I have a good concept of APIs and AJAX but implementing them is a bit more complicated
+                than I thought. I was struggling to figure out why our API wasn't working and it never occured to 
+                me that we had to include results with closed brackets since it's an array.  </p>
+            </div>
+
+            <h2>Output</h2>
+            <div id="output"></div>
+            <button id="activate">Press Me</button>
